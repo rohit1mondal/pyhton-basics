@@ -60,4 +60,30 @@ set2 = {3,4,5,6}
 # print(set1.union(set2))
 # print(set1.intersection(set2))
 
-# 
+# practice
+
+#1. you are given a list of subjects, Assume one classroom is required for each subject. How many classrooms are needed by all students?
+
+languages = {"python", "java", "c++", "python", "javascript", "java", "python", "java", "c++", "c"}
+
+# print(len(languages))
+
+#2. write a program to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary & add one by one. Use subject name as key & marks as value.
+
+
+marks = {}
+
+# x = int(input("Enter physics : "))
+# marks.update({"physics": x})
+# x = int(input("Enter mathematics : "))
+# marks.update({"mathematics": x})
+# x = int(input("Enter chemistry : "))
+# marks.update({"chemistry": x})
+
+# print(marks)
+
+#3. Figure out a way to store 9 & 9.0 as separate values in the set.
+# values = 
+values = {("float", 9.0), ("int", 9)}
+
+print(values)
